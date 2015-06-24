@@ -7,6 +7,7 @@
 //
 
 #import <SpriteKit/SpriteKit.h>
+#import "rootViewController.h"
 
 @interface MyScene : SKScene
 

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D4C6AC119BF8BC100E16385 /* main_fun.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D4C6AC019BF8BC100E16385 /* main_fun.m */; };
 		9D9189B619BE3DDF00D5AA28 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D9189B519BE3DDF00D5AA28 /* Foundation.framework */; };
 		9D9189B819BE3DE000D5AA28 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D9189B719BE3DE000D5AA28 /* CoreGraphics.framework */; };
 		9D9189BA19BE3DE000D5AA28 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D9189B919BE3DE000D5AA28 /* UIKit.framework */; };
@@ -14,7 +15,6 @@
 		9D9189C219BE3DE000D5AA28 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9D9189C019BE3DE000D5AA28 /* InfoPlist.strings */; };
 		9D9189C419BE3DE000D5AA28 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9189C319BE3DE000D5AA28 /* main.m */; };
 		9D9189C819BE3DE000D5AA28 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9189C719BE3DE000D5AA28 /* AppDelegate.m */; };
-		9D9189CB19BE3DE000D5AA28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D9189C919BE3DE000D5AA28 /* Main.storyboard */; };
 		9D9189CE19BE3DE000D5AA28 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9189CD19BE3DE000D5AA28 /* ViewController.m */; };
 		9D9189D119BE3DE000D5AA28 /* MyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9189D019BE3DE000D5AA28 /* MyScene.m */; };
 		9D9189D319BE3DE000D5AA28 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D9189D219BE3DE000D5AA28 /* Spaceship.png */; };
@@ -24,6 +24,14 @@
 		9D9189DE19BE3DE000D5AA28 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D9189B919BE3DE000D5AA28 /* UIKit.framework */; };
 		9D9189E619BE3DE000D5AA28 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9D9189E419BE3DE000D5AA28 /* InfoPlist.strings */; };
 		9D9189E819BE3DE000D5AA28 /* temp_gameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9189E719BE3DE000D5AA28 /* temp_gameTests.m */; };
+		9DB7251419C0DF4A00C02428 /* RetryButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB7251319C0DF4900C02428 /* RetryButton.m */; };
+		9DB7251819C0F5FD00C02428 /* Mosquito_clip_art_hight.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DB7251719C0F5FD00C02428 /* Mosquito_clip_art_hight.png */; };
+		9DB7251A19C0F67E00C02428 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DB7251919C0F67E00C02428 /* Main.storyboard */; };
+		9DB7253519C1263600C02428 /* rootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB7253419C1263600C02428 /* rootViewController.m */; };
+		9DB7253819C1547200C02428 /* MySceneTop.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB7253719C1547200C02428 /* MySceneTop.m */; };
+		9DB7254219C2382B00C02428 /* Mosquito.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DB7254119C2382B00C02428 /* Mosquito.png */; };
+		9DB7254419C25B4900C02428 /* ani_ge_mos01.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9DB7254319C25B4900C02428 /* ani_ge_mos01.mp3 */; };
+		9DB7254619C25E6800C02428 /* sen_ge_harisen01.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9DB7254519C25E6800C02428 /* sen_ge_harisen01.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +45,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9D4C6ABF19BF8BC100E16385 /* main_fun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = main_fun.h; sourceTree = "<group>"; };
+		9D4C6AC019BF8BC100E16385 /* main_fun.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main_fun.m; sourceTree = "<group>"; };
 		9D9189B219BE3DDF00D5AA28 /* temp_game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = temp_game.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D9189B519BE3DDF00D5AA28 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9D9189B719BE3DE000D5AA28 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,7 +58,6 @@
 		9D9189C519BE3DE000D5AA28 /* temp_game-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "temp_game-Prefix.pch"; sourceTree = "<group>"; };
 		9D9189C619BE3DE000D5AA28 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9D9189C719BE3DE000D5AA28 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9D9189CA19BE3DE000D5AA28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9D9189CC19BE3DE000D5AA28 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		9D9189CD19BE3DE000D5AA28 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9D9189CF19BE3DE000D5AA28 /* MyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyScene.h; sourceTree = "<group>"; };
@@ -60,6 +69,17 @@
 		9D9189E319BE3DE000D5AA28 /* temp_gameTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "temp_gameTests-Info.plist"; sourceTree = "<group>"; };
 		9D9189E519BE3DE000D5AA28 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9D9189E719BE3DE000D5AA28 /* temp_gameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = temp_gameTests.m; sourceTree = "<group>"; };
+		9DB7251219C0DF4900C02428 /* RetryButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RetryButton.h; sourceTree = "<group>"; };
+		9DB7251319C0DF4900C02428 /* RetryButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RetryButton.m; sourceTree = "<group>"; };
+		9DB7251719C0F5FD00C02428 /* Mosquito_clip_art_hight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mosquito_clip_art_hight.png; sourceTree = "<group>"; };
+		9DB7251919C0F67E00C02428 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		9DB7253319C1263600C02428 /* rootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rootViewController.h; sourceTree = "<group>"; };
+		9DB7253419C1263600C02428 /* rootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = rootViewController.m; sourceTree = "<group>"; };
+		9DB7253619C1547200C02428 /* MySceneTop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MySceneTop.h; sourceTree = "<group>"; };
+		9DB7253719C1547200C02428 /* MySceneTop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MySceneTop.m; sourceTree = "<group>"; };
+		9DB7254119C2382B00C02428 /* Mosquito.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mosquito.png; sourceTree = "<group>"; };
+		9DB7254319C25B4900C02428 /* ani_ge_mos01.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ani_ge_mos01.mp3; sourceTree = "<group>"; };
+		9DB7254519C25E6800C02428 /* sen_ge_harisen01.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sen_ge_harisen01.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,12 +143,24 @@
 			children = (
 				9D9189C619BE3DE000D5AA28 /* AppDelegate.h */,
 				9D9189C719BE3DE000D5AA28 /* AppDelegate.m */,
-				9D9189C919BE3DE000D5AA28 /* Main.storyboard */,
+				9DB7251919C0F67E00C02428 /* Main.storyboard */,
+				9DB7253319C1263600C02428 /* rootViewController.h */,
+				9DB7253419C1263600C02428 /* rootViewController.m */,
 				9D9189CC19BE3DE000D5AA28 /* ViewController.h */,
 				9D9189CD19BE3DE000D5AA28 /* ViewController.m */,
 				9D9189CF19BE3DE000D5AA28 /* MyScene.h */,
+				9DB7253619C1547200C02428 /* MySceneTop.h */,
+				9DB7253719C1547200C02428 /* MySceneTop.m */,
+				9D4C6ABF19BF8BC100E16385 /* main_fun.h */,
+				9D4C6AC019BF8BC100E16385 /* main_fun.m */,
 				9D9189D019BE3DE000D5AA28 /* MyScene.m */,
+				9DB7251219C0DF4900C02428 /* RetryButton.h */,
+				9DB7251319C0DF4900C02428 /* RetryButton.m */,
 				9D9189D219BE3DE000D5AA28 /* Spaceship.png */,
+				9DB7251719C0F5FD00C02428 /* Mosquito_clip_art_hight.png */,
+				9DB7254119C2382B00C02428 /* Mosquito.png */,
+				9DB7254319C25B4900C02428 /* ani_ge_mos01.mp3 */,
+				9DB7254519C25E6800C02428 /* sen_ge_harisen01.mp3 */,
 				9D9189D419BE3DE000D5AA28 /* Images.xcassets */,
 				9D9189BE19BE3DE000D5AA28 /* Supporting Files */,
 			);
@@ -211,6 +243,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "海野 竜也";
 				TargetAttributes = {
+					9D9189B119BE3DDF00D5AA28 = {
+						DevelopmentTeam = V234C4FQ67;
+					};
 					9D9189D919BE3DE000D5AA28 = {
 						TestTargetID = 9D9189B119BE3DDF00D5AA28;
 					};
@@ -240,10 +275,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DB7254419C25B4900C02428 /* ani_ge_mos01.mp3 in Resources */,
+				9DB7254619C25E6800C02428 /* sen_ge_harisen01.mp3 in Resources */,
 				9D9189C219BE3DE000D5AA28 /* InfoPlist.strings in Resources */,
+				9DB7254219C2382B00C02428 /* Mosquito.png in Resources */,
+				9DB7251A19C0F67E00C02428 /* Main.storyboard in Resources */,
+				9DB7251819C0F5FD00C02428 /* Mosquito_clip_art_hight.png in Resources */,
 				9D9189D519BE3DE000D5AA28 /* Images.xcassets in Resources */,
 				9D9189D319BE3DE000D5AA28 /* Spaceship.png in Resources */,
-				9D9189CB19BE3DE000D5AA28 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,8 +302,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D9189D119BE3DE000D5AA28 /* MyScene.m in Sources */,
+				9D4C6AC119BF8BC100E16385 /* main_fun.m in Sources */,
+				9DB7253519C1263600C02428 /* rootViewController.m in Sources */,
+				9DB7251419C0DF4A00C02428 /* RetryButton.m in Sources */,
 				9D9189CE19BE3DE000D5AA28 /* ViewController.m in Sources */,
 				9D9189C819BE3DE000D5AA28 /* AppDelegate.m in Sources */,
+				9DB7253819C1547200C02428 /* MySceneTop.m in Sources */,
 				9D9189C419BE3DE000D5AA28 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,14 +339,6 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		9D9189C919BE3DE000D5AA28 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9D9189CA19BE3DE000D5AA28 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		9D9189E419BE3DE000D5AA28 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -332,7 +367,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
+				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -390,9 +425,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "temp_game/temp_game-Prefix.pch";
 				INFOPLIST_FILE = "temp_game/temp_game-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
 				WRAPPER_EXTENSION = app;
@@ -404,9 +441,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "temp_game/temp_game-Prefix.pch";
 				INFOPLIST_FILE = "temp_game/temp_game-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
 				WRAPPER_EXTENSION = app;
@@ -472,6 +511,7 @@
 				9D9189ED19BE3DE000D5AA28 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9D9189EE19BE3DE000D5AA28 /* Build configuration list for PBXNativeTarget "temp_gameTests" */ = {
 			isa = XCConfigurationList;
@@ -480,6 +520,7 @@
 				9D9189F019BE3DE000D5AA28 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
